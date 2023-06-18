@@ -1,6 +1,3 @@
-[submodule "CoastalApp/SCHISM/schism-esmf"]
-	path = CoastalApp/SCHISM/schism-esmf
-	url = https://github.com/zhyccu/schism-esmf.git
 [submodule "CoastalApp/NEMS"]
 	path = CoastalApp/NEMS
 	url = https://github.com/zhyccu/NEMS
