@@ -1,0 +1,46 @@
+#############################################
+####  NEMS Run-Time Configuration File  #####
+#############################################
+
+# EARTH #
+EARTH_component_list: NWM OCN
+EARTH_attributes::
+  Verbosity = max
+::
+
+### HYD #
+##NWM_model:			wrfhydro
+##NWM_petlist_bounds:		0 7 
+##NWM_attributes::
+##  Verbosity = max
+##  #Write_grid = false
+##  #DumpFields = true
+##::
+
+# HYD #
+NWM_model:			nwm
+NWM_petlist_bounds:		0 4 
+NWM_attributes::
+  Verbosity = max
+  #Write_grid = false
+  #DumpFields = true
+::
+
+# OCN #
+OCN_model:                      schism
+OCN_petlist_bounds:             5 47
+OCN_attributes::
+  Verbosity = max
+  #DumpFields = true
+::
+  
+# Run Sequence #
+runSeq::
+  @3600
+#    OCN -> NWM   :remapMethod=redist
+#    NWM -> OCN   :remapMethod=redist
+#    NWM -> OCN   :remapMethod=nearest_stod
+    NWM
+    OCN
+  @
+::

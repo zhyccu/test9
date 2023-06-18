@@ -1,0 +1,47 @@
+#!/bin/sh
+#SBATCH --time=08:00:00
+#SBATCH -n 48
+####SBATCH -p peedee
+#SBATCH -p santee
+#SBATCH -J test
+#SBATCH -o test%j
+
+cd /mnt/cidstore1/physics/hzhang/coastal2example/
+rm output/*
+rm outputs/*
+rm PET*
+rm diag*
+rm 2016*
+rm zhy.log
+rm zhy2.log
+rm field*
+
+##source /home/hzhang/intel_ini.sh
+source /mnt/cidstore1/physics/hzhang/intel_ini.sh
+
+##actintel
+##source /home/hzhang/intel_ini.sh
+
+ulimit -s unlimited
+ulimit -v unlimited
+
+which mpirun
+#srun ./NEMS-adcirc_atmesh.x
+#(time /mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpirun -np 48 /mnt/cidstore1/physics/dshen/SCHISM/schism_nwm_test1/NEMS-schism.x) >& wrf.out
+#(time /mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpirun -np 48 /mnt/cidstore1/physics/dshen/SCHISM/schism_nwm_test1/NEMS-nwm.x) >& wrf.out
+
+##(time /mnt/cidstore1/physics/hzhang/Lib/openmpi_intel/bin/mpirun -np 48 ./NEMS-schism_nwm.x) >& wrf.out
+
+##(time /mnt/cidstore1/physics/hzhang/Lib/openmpi_intel/bin/mpirun -np 48 ./NEMS-nwm.x) >& wrf.out
+
+##(time /mnt/cidstore1/physics/hzhang/Lib/openmpi_intel/bin/mpirun -np 48 ./NEMS-wrfhydro.x) >& wrf.out
+
+##(time /mnt/cidstore1/physics/hzhang/Lib/openmpi_intel/bin/mpirun -np 48 ./NEMS-wrfhydro_schism.x) >& wrf.out
+
+##(time /mnt/cidstore1/physics/hzhang/Lib/openmpi_intel/bin/mpirun -np 48 ./NEMS-schism_wrfhydro.x) >& wrf.out
+
+(time /mnt/cidstore1/physics/hzhang/Lib/openmpi_intel/bin/mpirun -np 48 ./NEMS-schism_nwm.x) >& wrf.out
+
+##(time /mnt/cidstore1/physics/hzhang/Lib/openmpi_intel/bin/mpirun -np 48 ./NEMS-schism.x) >& wrf.out
+
+### END ###
