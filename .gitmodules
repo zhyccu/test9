@@ -1,6 +1,3 @@
-[submodule "CoastalApp/NWM"]
-	path = CoastalApp/NWM
-	url = https://github.com/zhyccu/nwm_public_nuopc
 [submodule "CoastalApp/SCHISM/schism"]
 	path = CoastalApp/SCHISM/schism
 	url = https://github.com/zhyccu/schism.git
