@@ -4,3 +4,9 @@
 [submodule "CoastalApp/SCHISM/schism-esmf"]
 	path = CoastalApp/SCHISM/schism-esmf
 	url = https://github.com/zhyccu/schism-esmf.git
+[submodule "CoastalApp/NWM"]
+	path = CoastalApp/NWM
+	url = https://github.com/zhyccu/nwm_public_nuopc
+[submodule "CoastalApp/NEMS"]
+	path = CoastalApp/NEMS
+	url = https://github.com/zhyccu/NEMS
