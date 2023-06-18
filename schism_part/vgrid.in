@@ -1,0 +1,8 @@
+2 !ivcor
+2 1 1.e6 !nvrt
+Z levels
+1  -1.e6
+S levels
+20. 0. 1.e-6  !h_c, theta_b, theta_f
+1         -1.00
+2          0.00
