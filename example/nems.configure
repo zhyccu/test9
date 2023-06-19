@@ -39,7 +39,7 @@ runSeq::
   @3600
 #    OCN -> NWM   :remapMethod=redist
 #    NWM -> OCN   :remapMethod=redist
-#    NWM -> OCN   :remapMethod=nearest_stod
+    NWM -> OCN   :remapMethod=nearest_stod
     NWM
     OCN
   @
