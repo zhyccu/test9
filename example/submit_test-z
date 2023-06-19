@@ -6,7 +6,7 @@
 #SBATCH -J test
 #SBATCH -o test%j
 
-cd /mnt/cidstore1/physics/hzhang/coastal2example/
+cd /mnt/cidstore1/physics/hzhang/coastal2/test9/example/
 rm output/*
 rm outputs/*
 rm PET*
