@@ -12,8 +12,8 @@ rm outputs/*
 rm PET*
 rm diag*
 rm 2016*
-rm zhy.log
-rm zhy2.log
+rm zhy_nwm.log
+rm zhy_schism.log
 rm field*
 
 ##source /home/hzhang/intel_ini.sh
