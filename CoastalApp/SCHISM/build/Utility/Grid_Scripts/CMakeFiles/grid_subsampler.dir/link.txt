@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/grid_subsampler.dir/grid_subsampler.f.o -o ../../bin/grid_subsampler 

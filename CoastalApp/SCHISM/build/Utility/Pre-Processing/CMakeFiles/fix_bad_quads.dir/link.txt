@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/fix_bad_quads.dir/fix_bad_quads.f90.o -o ../../bin/fix_bad_quads 

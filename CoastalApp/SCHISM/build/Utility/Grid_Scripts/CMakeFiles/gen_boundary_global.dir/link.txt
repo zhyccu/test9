@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/gen_boundary_global.dir/gen_boundary_global.f90.o -o ../../bin/gen_boundary_global 

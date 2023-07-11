@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/convert_3Dth_nc.dir/convert_3Dth_nc.f90.o -o ../../bin/convert_3Dth_nc  -Wl,-rpath,/mnt/cidstore1/physics/dshen/tools/netcdf-intel/lib ../../lib/libutillib.a /mnt/cidstore1/physics/dshen/tools/netcdf-intel/lib/libnetcdf.so /mnt/cidstore1/physics/dshen/tools/netcdf-intel/lib/libnetcdff.so 

@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/split_quads_wwm.dir/split_quads_wwm.f90.o -o ../../bin/split_quads_wwm 

@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/timeint_3Dth2.dir/timeint_3Dth2.f90.o -o ../../bin/timeint_3Dth2 

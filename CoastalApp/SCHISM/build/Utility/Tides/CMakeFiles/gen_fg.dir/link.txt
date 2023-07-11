@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/gen_fg.dir/gen_fg.f90.o -o ../../bin/gen_fg 

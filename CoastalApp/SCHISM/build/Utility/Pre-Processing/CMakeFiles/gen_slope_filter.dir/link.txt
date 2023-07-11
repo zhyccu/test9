@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/gen_slope_filter.dir/gen_slope_filter.f90.o -o ../../bin/gen_slope_filter 

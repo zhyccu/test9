@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/list_bnd_pt.dir/list_bnd_pt.f90.o -o ../../bin/list_bnd_pt 

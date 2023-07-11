@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/edit_vgrid.dir/edit_vgrid.f90.o -o ../../bin/edit_vgrid 

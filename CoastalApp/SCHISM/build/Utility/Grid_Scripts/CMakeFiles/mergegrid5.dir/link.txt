@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/mergegrid5.dir/mergegrid5.f90.o -o ../../bin/mergegrid5  ../../lib/libutillib.a 

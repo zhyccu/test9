@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/gen_vqs_1.dir/gen_vqs_1.f90.o -o ../../bin/gen_vqs_1  ../../lib/libutillib.a 

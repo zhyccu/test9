@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/combine_gr3.dir/combine_gr3.f90.o -o ../../bin/combine_gr3 

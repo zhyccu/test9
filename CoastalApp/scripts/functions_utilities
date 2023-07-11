@@ -957,7 +957,8 @@ getCompilerNames()
        FC=${FC:-ifort}
        F90=${F90:-${FC}}
        PCC=${PCC:-mpicc}
-       PCXX=${PCXX:-mpicpc}
+       #PCXX=${PCXX:-mpicpc}
+       PCXX=${PCXX:-mpicxx}
        PFC=${PFC:-mpifort}
        PF90=${PF90:-${PFC}}
        ;;

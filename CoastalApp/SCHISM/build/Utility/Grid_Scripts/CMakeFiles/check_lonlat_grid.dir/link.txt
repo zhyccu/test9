@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/check_lonlat_grid.dir/check_lonlat_grid.f90.o -o ../../bin/check_lonlat_grid 

@@ -1,0 +1,1 @@
+/mnt/cidstore1/physics/dshen/tools/openmpi-intel/bin/mpifort -O2 -assume byterecl CMakeFiles/find_small_elem.dir/find_small_elem.f90.o -o ../../bin/find_small_elem 
